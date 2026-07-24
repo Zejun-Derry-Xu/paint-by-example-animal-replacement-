@@ -61,8 +61,8 @@ We then ran a systematic study across bottleneck shapes:
 
 > **Key insight:** the bottleneck's *shape*, not just its size, controls the trade-off between **semantic understanding** and **identity copying** — too loose and the model copy-pastes; too tight and it loses the reference identity.
 
-<!-- 建议在这里放一张你们的瓶颈对比结果图： -->
-<!-- <p align="center"><img src="assets/bottleneck_ablation.png" width="90%"></p> -->
+
+
 
 ---
 
@@ -75,8 +75,7 @@ We evaluated the full pipeline across a **`{Base, LoRA} × {Random-Ref, CLIP-Ref
 
 We also benchmarked against **SOTA closed models (Gemini, GPT-Image)**: a gap remains, but our lightweight, fully-controllable pipeline stays competitive on this task.
 
-<!-- 建议放最终对比图（GT / Ours / Gemini / GPT-Image）： -->
-<!-- <p align="center"><img src="assets/sota_comparison.png" width="90%"></p> -->
+<img width="988" height="415" alt="截屏2026-07-24 下午12 11 34_副本" src="https://github.com/user-attachments/assets/15aead8b-efa2-4222-9d31-8b30af51a547" />
 
 ---
 
